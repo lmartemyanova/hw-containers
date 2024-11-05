@@ -43,7 +43,7 @@ jobs:
       - run: npm
       - run: npm test
 
-  build:
+  build: off
     needs: [eslint, test]
 
     environment:
